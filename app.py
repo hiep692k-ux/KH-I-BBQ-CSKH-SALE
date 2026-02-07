@@ -97,7 +97,7 @@ with col2:
                 try:
                     # Gọi Google Gemini
                     genai.configure(api_key=api_key)
-                    model = genai.GenerativeModel('gemini-1.5-flash')
+                    model = genai.GenerativeModel('gemini-1.5-flash-latest')
                     
                     # Ghép Prompt hệ thống + Dữ liệu khách hàng
                     full_request = [system_prompt]
